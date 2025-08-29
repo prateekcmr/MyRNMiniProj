@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "UserMgmtSystem",
-    "slug": "UserMgmtSystem",
+    "name": "UserReg",
+    "slug": "UserReg",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

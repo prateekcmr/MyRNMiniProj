@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1014676598814",
+    "project_id": "umsaug2025",
+    "storage_bucket": "umsaug2025.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014676598814:android:07a998126cc0837da3fe0f",
+        "android_client_info": {
+          "package_name": "coll.cmrit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJGTQcf6ADo8gtvn67hcGV6xIAVVGbej8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

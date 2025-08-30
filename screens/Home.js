@@ -8,7 +8,7 @@ import { auth } from "../firebaseConfig";
 import { signOut } from "firebase/auth";
 
 
-export default function HomeScreen({ navigation }) 
+export default function Home({ navigation }) 
 {
   const [loggedInTime, setLoggedInTime] = useState(null);
 

@@ -7,7 +7,7 @@ import { collection, getDocs, query, where } from "firebase/firestore";
 
 
 
-export default function LoginScreen({navigation})
+export default function Login({navigation})
 {
     const [email, setEmail] = useState("");
     const [psswd, setPsswd] = useState("");

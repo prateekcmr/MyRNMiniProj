@@ -29,32 +29,6 @@ export default function Login({navigation})
         
         Alert.alert("Success", "Logged in successfully!");
         navigation.replace("Home"); // go to Home after login
-
-        /*const usersRef = collection(db, "users");
-        const q = query(usersRef, where("email", "==", email));
-        const querySnapshot = await getDocs(q);
-
-        if (querySnapshot.empty) {
-          Alert.alert("Error", "User not found!");
-          return;
-        }
-
-        let loggedIn = false;
-        querySnapshot.forEach((doc) => {
-          const user = doc.data();
-          if (user.psswd == psswd) {
-            loggedIn = true;
-          }
-        });
-
-        if (loggedIn) {
-          Alert.alert("Success", "Logged in successfully!");
-          navigation.replace("Home"); // go to Home after login   
-        }
-
-        else {
-          Alert.alert("Error", "Invalid password!");
-        }*/
       } 
       
       catch (error) 

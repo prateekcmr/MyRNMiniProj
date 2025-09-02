@@ -60,6 +60,8 @@ export default function ForgotPassword({navigation})
         <Text style={{ color: "#fff", fontWeight: "bold" }}>Reset Password</Text>
       </TouchableOpacity>
 
+      <Text style={styles.go_back} onPress={() => navigation.navigate("Login")}>Go back</Text>    
+
       <StatusBar style="auto" />
 
     </View>
@@ -75,4 +77,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: 20
   },
+
+
+  go_back : {
+    marginTop: 45,
+    color: "#4a90e2",
+    fontWeight: "bold"
+  }  
 });
